@@ -1,0 +1,636 @@
+﻿@page "/"
+@using Models
+@using System.IO
+@inject IJSRuntime JSRuntime
+<h1>Manufacturing Operations</h1>
+
+<br/>
+
+<Button Color="Color.Primary" Clicked="@ShowModal">Add Operations</Button>
+
+<!-- Model For Adding Operation -->
+<Modal @ref="addOperationModalRef">
+    <ModalContent Centered>
+        <ModalHeader>
+            <ModalTitle>Add Operations</ModalTitle>
+            <CloseButton />
+        </ModalHeader>
+        <ModalBody>
+            <Alert Color="Color.Danger" @bind-Visible="@visible">
+                <AlertDescription>
+                   <p>An operation with ID  already exists. Please choose a different ID.</p>
+                  
+                </AlertDescription>
+                <AlertMessage>
+                    Alert Link.
+                </AlertMessage>
+                <CloseButton />
+            </Alert>
+            @code {
+        bool visible = false;
+
+        void ClearAlert()
+        {
+            visible = false;
+            errorMessage = string.Empty;
+        }
+            }
+            <Field>
+                <FieldLabel>ID</FieldLabel>
+                <input Placeholder="Enter ID..." @oninput="UpdateOperationID" value="@example.OperationId" class="form-control" required @onclick="ClearAlert" />
+            </Field>
+            <Field>
+                <FieldLabel>Name</FieldLabel>
+                <input Placeholder="Enter name..." @oninput="UpdateName" value="@example.Name" class="form-control" required @onclick="ClearAlert" />
+            </Field>
+            <Field>
+                <FieldLabel>Order</FieldLabel>
+                <input Placeholder="Enter order..." @oninput="UpdateOrder" value="@example.OrderInWhichToPerform" class="form-control" required @onclick="ClearAlert" />
+            </Field>
+            <Field>
+                <FilePicker Multiple Upload="OnFileUpload" ShowMode="FilePickerShowMode.List" required @onclick="ClearAlert" />
+             </Field>
+             <Field>
+                 <FieldLabel>Device</FieldLabel>
+                 <select class="form-control" @onchange="UpdateDeviceId" required>
+                     <option value="">Select a Device</option>
+                     @foreach (var device in devices)
+                    {
+                        <option value="@device.DeviceId">@device.Name</option>
+                    }
+                </select>
+            </Field>
+        </ModalBody>
+
+        <ModalFooter>
+            <Button Color="Color.Secondary" Clicked="@HideModal">Close</Button>
+            <Button Color="Color.Primary" Clicked="@SaveAndClose">Save Changes</Button>
+        </ModalFooter>
+    </ModalContent>
+</Modal>
+<br/>
+<br/>
+<!-- Table to display saved data -->
+<table class="table table-striped table-bordered table-responsive">
+    <thead class="thead-dark">
+        <tr>
+            <th style="width: 10%;">Operation ID</th>
+            <th>Name</th>
+            <th style="width: 10%;">Order</th>
+            <th>Device ID</th>
+            <th>Device Name</th>
+            <th>Action</th> 
+        </tr>
+    </thead>
+    <tbody>
+         @foreach (var line in savedDataList.OrderBy(l => GetOrderFromLine(l)))
+        {
+            var values = line.Split(',');
+            <tr>
+                <td>@values[0].Trim()</td> 
+                <td>@values[1].Trim()</td> 
+                <td>@values[2].Trim()</td> 
+                <td>
+                    @{
+                        if (values != null && values.Length > 4)
+                        {
+                            <text>
+                                @if (!string.IsNullOrEmpty(values[4]?.Trim()))
+                                {
+                                    @values[4].Trim()<br />
+                                }
+                
+                                @if (values.Length > 5 && !string.IsNullOrEmpty(values[5]?.Trim()))
+                                {
+                                    @values[5].Trim()<br />
+                                }
+
+                                @if (values.Length > 6 && !string.IsNullOrEmpty(values[6]?.Trim()))
+                                {
+                                    @values[6].Trim()
+                                }
+                            </text>
+                        }
+                        else
+                        {
+                            @values[4]?.Trim() 
+                            <text>Array is not long enough</text>
+                        }
+                    }
+                </td> 
+                <td>
+                    @foreach (var value in values.Skip(4).Take(3))
+                    {
+                        if (int.TryParse(value, out var deviceId))
+                        {
+                            var device = devices.FirstOrDefault(d => d.DeviceId == deviceId);
+                            @(device?.Name ?? "Device Not Found")<br />
+                        }
+                        else
+                        {
+                            <td>Invalid Device ID</td>
+                        }
+                    }
+                </td>
+                    <td>
+                        <Button Color="Color.Success" Clicked="@(async () => await ShowImageModal(values[3]))">Show Image</Button>
+                         <Button Color="Color.Danger" Clicked="@(async () => await ShowDeleteModal(values[0]))">Delete</Button>
+                          <Button Color="Color.Info" Clicked="@(async () => await ShowDeviceSelectionModal(values[0]))">Add Device</Button>
+                    </td>
+                </tr>
+        }
+    </tbody>
+</table>
+
+
+
+
+<!-- Image Modal -->
+<Modal @ref="imageModalRef" Closing="@OnModalClosing">
+    <ModalContent Centered>
+        <ModalHeader>
+            <ModalTitle>Image</ModalTitle>
+        </ModalHeader>
+        <ModalBody>
+            
+            @if (!string.IsNullOrEmpty(currentImagePathToShow))
+            {
+                     <center>  <img src="@currentImagePathToShow" alt="Girl in a jacket" width="390" height="400"></center>
+            }
+            else
+            {
+                <p>No image available.</p>
+            }
+
+            
+        </ModalBody>
+        <ModalFooter>
+            <Button Color="Color.Success" Clicked="@CloseImageModal">Close</Button>
+        </ModalFooter>
+    </ModalContent>
+</Modal>
+
+<!-- Delete Modal -->
+<Modal @ref="deleteModalRef" Closing="@OnDeleteModalClosing">
+    <ModalContent Centered>
+        <ModalHeader>
+            <ModalTitle>Delete Record</ModalTitle>
+        </ModalHeader>
+        <ModalBody>
+            <p>Please enter "yes" to confirm deletion:</p>
+            <input type="text" @bind="deleteConfirmation" class="form-control" />
+        </ModalBody>
+        <ModalFooter>
+            <Button Color="Color.Secondary" Clicked="@HideDeleteModal">Cancel</Button>
+            <Button Color="Color.Danger" Clicked="@DeleteRecord" Disabled="@(!IsDeleteConfirmationValid())">Delete</Button>
+        </ModalFooter>
+    </ModalContent>
+</Modal>
+
+<Modal @ref="deviceSelectionModalRef" Closing="@OnDeviceSelectionModalClosing">
+    <ModalContent Centered>
+        <ModalHeader>
+            <ModalTitle>Select Device</ModalTitle>
+        </ModalHeader>
+        <ModalBody>
+            <p>Select a device from the dropdown (In Total Only 3 devices per Operation):</p>
+            <select class="form-control" @bind="selectedDeviceId">
+                <option value="">Select a Device</option>
+                @foreach (var device in devices)
+                {
+                    <option value="@device.DeviceId">@device.Name</option>
+                }
+            </select>
+        </ModalBody>
+        <ModalFooter>
+            <Button Color="Color.Secondary" Clicked="@HideDeviceSelectionModal">Cancel</Button>
+            <Button Color="Color.Info" Clicked="@AddDeviceToRecord" Disabled="@(!IsDeviceSelectionValid())">Add Device</Button>
+        </ModalFooter>
+    </ModalContent>
+</Modal>
+
+@code {
+    private Modal addOperationModalRef;
+    private Modal imageModalRef;
+    private string currentImagePathToShow;
+    private string currentOperationIdToDelete;
+    private Modal deviceSelectionModalRef;
+    private int selectedDeviceId;
+    private string currentOperationIdForDeviceSelection;
+
+
+
+
+
+    int GetOrderFromLine(string line)
+    {
+        var values = line.Split(',');
+        if (values.Length > 2 && int.TryParse(values[2].Trim(), out var order))
+        {
+            return order;
+        }
+        return int.MaxValue; 
+    }
+
+    Operation example = new Operation()
+        {
+            OperationId = 1,
+            Name = "welding",
+            OrderInWhichToPerform = 1,
+        };
+
+    private string imagePath;
+    private List<string> savedDataList = new List<string>();
+    private string errorMessage;
+    List<Device> devices = new List<Device>(); 
+
+    protected override void OnInitialized()
+    {
+        base.OnInitialized();
+        LoadDeviceData();
+        ReadDataFromTextFile();
+    }
+
+    private async Task ShowModal()
+    {
+        example = new Operation()
+            {
+                OperationId = 1,
+                Name = "",
+                OrderInWhichToPerform = 0,
+            };
+
+        imagePath = null;
+
+        await addOperationModalRef.Show();
+    }
+
+    private async Task HideModal()
+    {
+        await addOperationModalRef.Hide();
+        
+        JSRuntime.InvokeVoidAsync("location.reload");
+    }
+
+    void UpdateName(ChangeEventArgs e)
+    {
+        example.Name = e.Value.ToString();
+    }
+
+    void UpdateOperationID(ChangeEventArgs e)
+    {
+        if (int.TryParse(e.Value.ToString(), out var operationID))
+        {
+            example.OperationId = operationID;
+        }
+    }
+
+    void UpdateOrder(ChangeEventArgs e)
+    {
+        if (int.TryParse(e.Value.ToString(), out var order))
+        {
+            example.OrderInWhichToPerform = order;
+        }
+    }
+
+    async Task OnFileUpload(FileUploadEventArgs e)
+    {
+        try
+        {
+            string fileName = $"{example.OperationId}{Path.GetExtension(e.File.Name)}";
+            string filePath = Path.Combine("Image", fileName);
+
+            using (var fileStream = new FileStream(filePath, FileMode.Create))
+            {
+                await e.File.OpenReadStream(long.MaxValue).CopyToAsync(fileStream);
+            }
+
+            imagePath = filePath;
+
+            Console.WriteLine($"File saved to: {imagePath}");
+        }
+        catch (Exception exc)
+        {
+            Console.WriteLine(exc.Message);
+        }
+        finally
+        {
+            this.StateHasChanged();
+        }
+    }
+
+    void UpdateDeviceId(ChangeEventArgs e)
+    {
+        if (int.TryParse(e.Value.ToString(), out var deviceId))
+        {
+            example.DeviceId = deviceId;
+        }
+    }
+
+     void SaveAndClose()
+    {
+        try
+        {
+            Console.WriteLine($"Saving data: {example.OperationId},{example.Name},{example.OrderInWhichToPerform},{imagePath},{example.DeviceId}");
+            Console.WriteLine($"{imagePath}");
+
+            if (IsOperationIdExists(example.OperationId))
+            {
+                errorMessage = $"Error: Operation with ID {example.OperationId} already exists.";
+                visible = true;
+                StateHasChanged();
+                return;
+            }
+
+            if (IsOrderExists(example.OrderInWhichToPerform))
+            {
+                errorMessage = $"Error: Operation with Order {example.OrderInWhichToPerform} already exists.";
+                visible = true;
+                StateHasChanged();
+                return;
+            }
+
+            WriteDataToTextFile();
+            ReadDataFromTextFile();
+
+            
+            JSRuntime.InvokeVoidAsync("location.reload");
+        }
+        catch (Exception ex)
+        {
+            Console.WriteLine($"Error saving data: {ex.Message}");
+        }
+        finally
+        {
+            example = new Operation();
+            imagePath = null;
+
+            if (!visible)
+            {
+                HideModal();
+            }
+        }
+    }
+
+    bool IsOperationIdExists(int operationId)
+    {
+        return savedDataList.Any(line => line.StartsWith($"{operationId},"));
+    }
+
+    bool IsOrderExists(int order)
+    {
+        return savedDataList.Any(line => line.Contains($",{order},"));
+    }
+
+    void WriteDataToTextFile()
+    {
+        try
+        {
+            string filePath = Path.Combine("Data", "SavedData.txt");
+
+            using (StreamWriter writer = File.AppendText(filePath))
+            {
+                writer.WriteLine($"{example.OperationId},{example.Name},{example.OrderInWhichToPerform},{imagePath},{example.DeviceId}");
+            }
+
+            Console.WriteLine($"Data saved to text file: {filePath}");
+        }
+        catch (Exception ex)
+        {
+            Console.WriteLine($"Error writing data to text file: {ex.Message}");
+        }
+    }
+
+    void ReadDataFromTextFile()
+    {
+        try
+        {
+            string filePath = Path.Combine("Data", "SavedData.txt");
+            string[] lines = File.ReadAllLines(filePath);
+
+            savedDataList.Clear();
+            savedDataList.AddRange(lines);
+
+            Console.WriteLine($"Reading data from text file: {filePath}");
+            Console.WriteLine($"Lines read: {lines.Length}");
+
+            this.StateHasChanged();
+        }
+        catch (Exception ex)
+        {
+            Console.WriteLine($"Error reading data from text file: {ex.Message}");
+        }
+    }
+
+    void LoadDeviceData()
+    {
+        try
+        {
+            string deviceFilePath = Path.Combine("Data", "DeviceData.txt");
+            string[] deviceLines = File.ReadAllLines(deviceFilePath);
+
+            devices = new List<Device>();
+
+            foreach (var line in deviceLines)
+            {
+                var values = line.Split(',');
+
+                if (values.Length >= 3 && int.TryParse(values[0], out var deviceId))
+                {
+                    devices.Add(new Device
+                        {
+                            DeviceId = deviceId,
+                            Name = values[1],
+                            DeviceType = values[2],
+                        });
+                }
+            }
+
+            Console.WriteLine($"Devices loaded: {devices.Count}");
+        }
+        catch (Exception ex)
+        {
+            Console.WriteLine($"Error loading devices: {ex.Message}");
+        }
+
+    }
+    private async Task ShowImageModal(string imagePath)
+    {
+        currentImagePathToShow = imagePath;
+
+        if (!string.IsNullOrEmpty(currentImagePathToShow))
+        {
+            try
+            {
+                string extension = Path.GetExtension(currentImagePathToShow).ToLower();
+
+                if (extension == ".png" || extension == ".jpg" || extension == ".jpeg")
+                {
+                    byte[] imageBytes = File.ReadAllBytes(currentImagePathToShow);
+                    string base64Image = Convert.ToBase64String(imageBytes);
+                    currentImagePathToShow = $"data:image/{extension.Replace(".", "")};base64,{base64Image}";
+                }
+                else
+                {
+                    Console.WriteLine("Unsupported image format.");
+                    currentImagePathToShow = null;
+                }
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine($"Error converting image to base64: {ex.Message}");
+                currentImagePathToShow = null;
+            }
+        }
+
+        await imageModalRef.Show();
+    }
+
+    private async Task CloseImageModal()
+    {
+        currentImagePathToShow = null;
+        await imageModalRef.Hide();
+    }
+
+    private Task OnModalClosing(ModalClosingEventArgs e)
+    {
+        
+        return Task.CompletedTask;
+    }
+     private Modal deleteModalRef;
+    private string deleteConfirmation;
+
+    private async Task ShowDeleteModal(string operationId)
+    {
+        
+        currentOperationIdToDelete = operationId;
+        deleteConfirmation = string.Empty;
+
+        await deleteModalRef.Show();
+    }
+
+    private void HideDeleteModal()
+    {
+        deleteConfirmation = string.Empty;
+        deleteModalRef.Hide();
+    }
+
+    private bool IsDeleteConfirmationValid()
+    {
+        return deleteConfirmation?.Trim().Equals("yes", StringComparison.OrdinalIgnoreCase) ?? false;
+    }
+
+    private async Task DeleteRecord()
+    {
+        if (IsDeleteConfirmationValid())
+        {
+            
+            await DeleteRecordFromFile(currentOperationIdToDelete);
+
+            
+            HideDeleteModal();
+
+            
+            ReadDataFromTextFile();
+        }
+    }
+
+    private async Task DeleteRecordFromFile(string operationIdToDelete)
+    {
+        try
+        {
+            string filePath = Path.Combine("Data", "SavedData.txt");
+            var lines = File.ReadAllLines(filePath).ToList();
+            lines.RemoveAll(line => line.StartsWith($"{operationIdToDelete},"));
+
+            File.WriteAllLines(filePath, lines);
+
+            Console.WriteLine($"Record with Operation ID {operationIdToDelete} deleted from text file.");
+        }
+        catch (Exception ex)
+        {
+            Console.WriteLine($"Error deleting record: {ex.Message}");
+        }
+    }
+
+    private Task OnDeleteModalClosing(ModalClosingEventArgs e)
+    {
+        
+        deleteConfirmation = string.Empty;
+        return Task.CompletedTask;
+    }
+    private async Task ShowDeviceSelectionModal(string operationId)
+    {
+        
+        currentOperationIdForDeviceSelection = operationId;
+        selectedDeviceId = 0;
+
+        await deviceSelectionModalRef.Show();
+    }
+
+    private void HideDeviceSelectionModal()
+    {
+        selectedDeviceId = 0;
+        deviceSelectionModalRef.Hide();
+    }
+
+    private bool IsDeviceSelectionValid()
+    {
+        return selectedDeviceId != 0;
+    }
+
+    private async Task AddDeviceToRecord()
+    {
+        if (IsDeviceSelectionValid())
+        {
+            
+            await AddDeviceToRecordInFile(currentOperationIdForDeviceSelection, selectedDeviceId);
+
+            
+            HideDeviceSelectionModal();
+
+            
+            ReadDataFromTextFile();
+        }
+    }
+
+    private async Task AddDeviceToRecordInFile(string operationIdToAddDevice, int selectedDeviceId)
+    {
+        try
+        {
+            string filePath = Path.Combine("Data", "SavedData.txt");
+            var lines = File.ReadAllLines(filePath).ToList();
+
+            
+            var lineIndex = lines.FindIndex(line => line.StartsWith($"{operationIdToAddDevice},"));
+
+            if (lineIndex != -1)
+            {
+                
+                lines[lineIndex] += $",{selectedDeviceId}";
+
+               
+                File.WriteAllLines(filePath, lines);
+
+                Console.WriteLine($"Device with ID {selectedDeviceId} added to record with Operation ID {operationIdToAddDevice} in text file.");
+            }
+            else
+            {
+                Console.WriteLine($"Record with Operation ID {operationIdToAddDevice} not found in text file.");
+            }
+        }
+        catch (Exception ex)
+        {
+            Console.WriteLine($"Error adding device to record: {ex.Message}");
+        }
+    }
+
+    private Task OnDeviceSelectionModalClosing(ModalClosingEventArgs e)
+    {
+        
+        selectedDeviceId = 0;
+        return Task.CompletedTask;
+    }
+
+}
+
