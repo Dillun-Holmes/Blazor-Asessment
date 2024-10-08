@@ -1,0 +1,160 @@
+D:\Windows\New folder\CODE\Blazor\DillunHolmesBlazorServerApp\bin\Debug\net6.0\appsettings.Development.json
+D:\Windows\New folder\CODE\Blazor\DillunHolmesBlazorServerApp\bin\Debug\net6.0\appsettings.json
+D:\Windows\New folder\CODE\Blazor\DillunHolmesBlazorServerApp\bin\Debug\net6.0\DillunHolmesBlazorServerApp.staticwebassets.runtime.json
+D:\Windows\New folder\CODE\Blazor\DillunHolmesBlazorServerApp\bin\Debug\net6.0\DillunHolmesBlazorServerApp.exe
+D:\Windows\New folder\CODE\Blazor\DillunHolmesBlazorServerApp\bin\Debug\net6.0\DillunHolmesBlazorServerApp.deps.json
+D:\Windows\New folder\CODE\Blazor\DillunHolmesBlazorServerApp\bin\Debug\net6.0\DillunHolmesBlazorServerApp.runtimeconfig.json
+D:\Windows\New folder\CODE\Blazor\DillunHolmesBlazorServerApp\bin\Debug\net6.0\DillunHolmesBlazorServerApp.dll
+D:\Windows\New folder\CODE\Blazor\DillunHolmesBlazorServerApp\bin\Debug\net6.0\DillunHolmesBlazorServerApp.pdb
+D:\Windows\New folder\CODE\Blazor\DillunHolmesBlazorServerApp\bin\Debug\net6.0\Blazorise.dll
+D:\Windows\New folder\CODE\Blazor\DillunHolmesBlazorServerApp\bin\Debug\net6.0\Blazorise.Bootstrap.dll
+D:\Windows\New folder\CODE\Blazor\DillunHolmesBlazorServerApp\bin\Debug\net6.0\Blazorise.Icons.FontAwesome.dll
+D:\Windows\New folder\CODE\Blazor\DillunHolmesBlazorServerApp\bin\Debug\net6.0\Blazorise.Licensing.dll
+D:\Windows\New folder\CODE\Blazor\DillunHolmesBlazorServerApp\bin\Debug\net6.0\DeepCloner.dll
+D:\Windows\New folder\CODE\Blazor\DillunHolmesBlazorServerApp\bin\Debug\net6.0\Microsoft.AspNetCore.Authorization.dll
+D:\Windows\New folder\CODE\Blazor\DillunHolmesBlazorServerApp\bin\Debug\net6.0\Microsoft.AspNetCore.Components.dll
+D:\Windows\New folder\CODE\Blazor\DillunHolmesBlazorServerApp\bin\Debug\net6.0\Microsoft.AspNetCore.Components.Forms.dll
+D:\Windows\New folder\CODE\Blazor\DillunHolmesBlazorServerApp\bin\Debug\net6.0\Microsoft.AspNetCore.Components.Web.dll
+D:\Windows\New folder\CODE\Blazor\DillunHolmesBlazorServerApp\bin\Debug\net6.0\Microsoft.AspNetCore.Metadata.dll
+D:\Windows\New folder\CODE\Blazor\DillunHolmesBlazorServerApp\bin\Debug\net6.0\Microsoft.Extensions.DependencyInjection.dll
+D:\Windows\New folder\CODE\Blazor\DillunHolmesBlazorServerApp\bin\Debug\net6.0\Microsoft.Extensions.Logging.Abstractions.dll
+D:\Windows\New folder\CODE\Blazor\DillunHolmesBlazorServerApp\bin\Debug\net6.0\Microsoft.JSInterop.dll
+D:\Windows\New folder\CODE\Blazor\DillunHolmesBlazorServerApp\bin\Debug\net6.0\System.IO.Pipelines.dll
+D:\Windows\New folder\CODE\Blazor\DillunHolmesBlazorServerApp\obj\Debug\net6.0\DillunHolmesBlazorServerApp.csproj.AssemblyReference.cache
+D:\Windows\New folder\CODE\Blazor\DillunHolmesBlazorServerApp\obj\Debug\net6.0\DillunHolmesBlazorServerApp.GeneratedMSBuildEditorConfig.editorconfig
+D:\Windows\New folder\CODE\Blazor\DillunHolmesBlazorServerApp\obj\Debug\net6.0\DillunHolmesBlazorServerApp.AssemblyInfoInputs.cache
+D:\Windows\New folder\CODE\Blazor\DillunHolmesBlazorServerApp\obj\Debug\net6.0\DillunHolmesBlazorServerApp.AssemblyInfo.cs
+D:\Windows\New folder\CODE\Blazor\DillunHolmesBlazorServerApp\obj\Debug\net6.0\DillunHolmesBlazorServerApp.csproj.CoreCompileInputs.cache
+D:\Windows\New folder\CODE\Blazor\DillunHolmesBlazorServerApp\obj\Debug\net6.0\DillunHolmesBlazorServerApp.MvcApplicationPartsAssemblyInfo.cache
+D:\Windows\New folder\CODE\Blazor\DillunHolmesBlazorServerApp\obj\Debug\net6.0\DillunHolmesBlazorServerApp.RazorAssemblyInfo.cache
+D:\Windows\New folder\CODE\Blazor\DillunHolmesBlazorServerApp\obj\Debug\net6.0\DillunHolmesBlazorServerApp.RazorAssemblyInfo.cs
+D:\Windows\New folder\CODE\Blazor\DillunHolmesBlazorServerApp\obj\Debug\net6.0\staticwebassets.build.json
+D:\Windows\New folder\CODE\Blazor\DillunHolmesBlazorServerApp\obj\Debug\net6.0\staticwebassets.development.json
+D:\Windows\New folder\CODE\Blazor\DillunHolmesBlazorServerApp\obj\Debug\net6.0\staticwebassets\msbuild.DillunHolmesBlazorServerApp.Microsoft.AspNetCore.StaticWebAssets.props
+D:\Windows\New folder\CODE\Blazor\DillunHolmesBlazorServerApp\obj\Debug\net6.0\staticwebassets\msbuild.build.DillunHolmesBlazorServerApp.props
+D:\Windows\New folder\CODE\Blazor\DillunHolmesBlazorServerApp\obj\Debug\net6.0\staticwebassets\msbuild.buildMultiTargeting.DillunHolmesBlazorServerApp.props
+D:\Windows\New folder\CODE\Blazor\DillunHolmesBlazorServerApp\obj\Debug\net6.0\staticwebassets\msbuild.buildTransitive.DillunHolmesBlazorServerApp.props
+D:\Windows\New folder\CODE\Blazor\DillunHolmesBlazorServerApp\obj\Debug\net6.0\staticwebassets.pack.json
+D:\Windows\New folder\CODE\Blazor\DillunHolmesBlazorServerApp\obj\Debug\net6.0\scopedcss\Shared\MainLayout.razor.rz.scp.css
+D:\Windows\New folder\CODE\Blazor\DillunHolmesBlazorServerApp\obj\Debug\net6.0\scopedcss\Shared\NavMenu.razor.rz.scp.css
+D:\Windows\New folder\CODE\Blazor\DillunHolmesBlazorServerApp\obj\Debug\net6.0\scopedcss\bundle\DillunHolmesBlazorServerApp.styles.css
+D:\Windows\New folder\CODE\Blazor\DillunHolmesBlazorServerApp\obj\Debug\net6.0\scopedcss\projectbundle\DillunHolmesBlazorServerApp.bundle.scp.css
+D:\Windows\New folder\CODE\Blazor\DillunHolmesBlazorServerApp\obj\Debug\net6.0\DillunHolmesBlazorServerApp.csproj.CopyComplete
+D:\Windows\New folder\CODE\Blazor\DillunHolmesBlazorServerApp\obj\Debug\net6.0\DillunHolmesBlazorServerApp.dll
+D:\Windows\New folder\CODE\Blazor\DillunHolmesBlazorServerApp\obj\Debug\net6.0\refint\DillunHolmesBlazorServerApp.dll
+D:\Windows\New folder\CODE\Blazor\DillunHolmesBlazorServerApp\obj\Debug\net6.0\DillunHolmesBlazorServerApp.pdb
+D:\Windows\New folder\CODE\Blazor\DillunHolmesBlazorServerApp\obj\Debug\net6.0\DillunHolmesBlazorServerApp.genruntimeconfig.cache
+D:\Windows\New folder\CODE\Blazor\DillunHolmesBlazorServerApp\obj\Debug\net6.0\ref\DillunHolmesBlazorServerApp.dll
+D:\Windows\New folder\CODE\Blazor\DillunHolmesBlazorServerApp\bin\Debug\net6.0\Humanizer.dll
+D:\Windows\New folder\CODE\Blazor\DillunHolmesBlazorServerApp\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.dll
+D:\Windows\New folder\CODE\Blazor\DillunHolmesBlazorServerApp\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+D:\Windows\New folder\CODE\Blazor\DillunHolmesBlazorServerApp\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Design.dll
+D:\Windows\New folder\CODE\Blazor\DillunHolmesBlazorServerApp\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Relational.dll
+D:\Windows\New folder\CODE\Blazor\DillunHolmesBlazorServerApp\bin\Debug\net6.0\Microsoft.Data.SqlClient.dll
+D:\Windows\New folder\CODE\Blazor\DillunHolmesBlazorServerApp\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.SqlServer.dll
+D:\Windows\New folder\CODE\Blazor\DillunHolmesBlazorServerApp\bin\Debug\net6.0\Microsoft.Identity.Client.dll
+D:\Windows\New folder\CODE\Blazor\DillunHolmesBlazorServerApp\bin\Debug\net6.0\Microsoft.IdentityModel.JsonWebTokens.dll
+D:\Windows\New folder\CODE\Blazor\DillunHolmesBlazorServerApp\bin\Debug\net6.0\Microsoft.IdentityModel.Logging.dll
+D:\Windows\New folder\CODE\Blazor\DillunHolmesBlazorServerApp\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.dll
+D:\Windows\New folder\CODE\Blazor\DillunHolmesBlazorServerApp\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+D:\Windows\New folder\CODE\Blazor\DillunHolmesBlazorServerApp\bin\Debug\net6.0\Microsoft.IdentityModel.Tokens.dll
+D:\Windows\New folder\CODE\Blazor\DillunHolmesBlazorServerApp\bin\Debug\net6.0\Microsoft.Win32.SystemEvents.dll
+D:\Windows\New folder\CODE\Blazor\DillunHolmesBlazorServerApp\bin\Debug\net6.0\System.Configuration.ConfigurationManager.dll
+D:\Windows\New folder\CODE\Blazor\DillunHolmesBlazorServerApp\bin\Debug\net6.0\System.Drawing.Common.dll
+D:\Windows\New folder\CODE\Blazor\DillunHolmesBlazorServerApp\bin\Debug\net6.0\System.IdentityModel.Tokens.Jwt.dll
+D:\Windows\New folder\CODE\Blazor\DillunHolmesBlazorServerApp\bin\Debug\net6.0\System.Runtime.Caching.dll
+D:\Windows\New folder\CODE\Blazor\DillunHolmesBlazorServerApp\bin\Debug\net6.0\System.Security.Cryptography.ProtectedData.dll
+D:\Windows\New folder\CODE\Blazor\DillunHolmesBlazorServerApp\bin\Debug\net6.0\System.Security.Permissions.dll
+D:\Windows\New folder\CODE\Blazor\DillunHolmesBlazorServerApp\bin\Debug\net6.0\System.Windows.Extensions.dll
+D:\Windows\New folder\CODE\Blazor\DillunHolmesBlazorServerApp\bin\Debug\net6.0\runtimes\unix\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+D:\Windows\New folder\CODE\Blazor\DillunHolmesBlazorServerApp\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+D:\Windows\New folder\CODE\Blazor\DillunHolmesBlazorServerApp\bin\Debug\net6.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+D:\Windows\New folder\CODE\Blazor\DillunHolmesBlazorServerApp\bin\Debug\net6.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+D:\Windows\New folder\CODE\Blazor\DillunHolmesBlazorServerApp\bin\Debug\net6.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+D:\Windows\New folder\CODE\Blazor\DillunHolmesBlazorServerApp\bin\Debug\net6.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+D:\Windows\New folder\CODE\Blazor\DillunHolmesBlazorServerApp\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\Microsoft.Win32.SystemEvents.dll
+D:\Windows\New folder\CODE\Blazor\DillunHolmesBlazorServerApp\bin\Debug\net6.0\runtimes\unix\lib\netcoreapp3.0\System.Drawing.Common.dll
+D:\Windows\New folder\CODE\Blazor\DillunHolmesBlazorServerApp\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\System.Drawing.Common.dll
+D:\Windows\New folder\CODE\Blazor\DillunHolmesBlazorServerApp\bin\Debug\net6.0\runtimes\win\lib\netstandard2.0\System.Runtime.Caching.dll
+D:\Windows\New folder\CODE\Blazor\DillunHolmesBlazorServerApp\bin\Debug\net6.0\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+D:\Windows\New folder\CODE\Blazor\DillunHolmesBlazorServerApp\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\System.Windows.Extensions.dll
+C:\Users\dillu\Downloads\Blazor-Asessment-main\Blazor-Asessment-main\DillunHolmesBlazorServerApp\DillunHolmesBlazorServerApp\bin\Debug\net6.0\appsettings.Development.json
+C:\Users\dillu\Downloads\Blazor-Asessment-main\Blazor-Asessment-main\DillunHolmesBlazorServerApp\DillunHolmesBlazorServerApp\bin\Debug\net6.0\appsettings.json
+C:\Users\dillu\Downloads\Blazor-Asessment-main\Blazor-Asessment-main\DillunHolmesBlazorServerApp\DillunHolmesBlazorServerApp\bin\Debug\net6.0\DillunHolmesBlazorServerApp.staticwebassets.runtime.json
+C:\Users\dillu\Downloads\Blazor-Asessment-main\Blazor-Asessment-main\DillunHolmesBlazorServerApp\DillunHolmesBlazorServerApp\bin\Debug\net6.0\DillunHolmesBlazorServerApp.exe
+C:\Users\dillu\Downloads\Blazor-Asessment-main\Blazor-Asessment-main\DillunHolmesBlazorServerApp\DillunHolmesBlazorServerApp\bin\Debug\net6.0\DillunHolmesBlazorServerApp.deps.json
+C:\Users\dillu\Downloads\Blazor-Asessment-main\Blazor-Asessment-main\DillunHolmesBlazorServerApp\DillunHolmesBlazorServerApp\bin\Debug\net6.0\DillunHolmesBlazorServerApp.runtimeconfig.json
+C:\Users\dillu\Downloads\Blazor-Asessment-main\Blazor-Asessment-main\DillunHolmesBlazorServerApp\DillunHolmesBlazorServerApp\bin\Debug\net6.0\DillunHolmesBlazorServerApp.dll
+C:\Users\dillu\Downloads\Blazor-Asessment-main\Blazor-Asessment-main\DillunHolmesBlazorServerApp\DillunHolmesBlazorServerApp\bin\Debug\net6.0\DillunHolmesBlazorServerApp.pdb
+C:\Users\dillu\Downloads\Blazor-Asessment-main\Blazor-Asessment-main\DillunHolmesBlazorServerApp\DillunHolmesBlazorServerApp\bin\Debug\net6.0\Blazorise.dll
+C:\Users\dillu\Downloads\Blazor-Asessment-main\Blazor-Asessment-main\DillunHolmesBlazorServerApp\DillunHolmesBlazorServerApp\bin\Debug\net6.0\Blazorise.Bootstrap.dll
+C:\Users\dillu\Downloads\Blazor-Asessment-main\Blazor-Asessment-main\DillunHolmesBlazorServerApp\DillunHolmesBlazorServerApp\bin\Debug\net6.0\Blazorise.Icons.FontAwesome.dll
+C:\Users\dillu\Downloads\Blazor-Asessment-main\Blazor-Asessment-main\DillunHolmesBlazorServerApp\DillunHolmesBlazorServerApp\bin\Debug\net6.0\Blazorise.Licensing.dll
+C:\Users\dillu\Downloads\Blazor-Asessment-main\Blazor-Asessment-main\DillunHolmesBlazorServerApp\DillunHolmesBlazorServerApp\bin\Debug\net6.0\DeepCloner.dll
+C:\Users\dillu\Downloads\Blazor-Asessment-main\Blazor-Asessment-main\DillunHolmesBlazorServerApp\DillunHolmesBlazorServerApp\bin\Debug\net6.0\Humanizer.dll
+C:\Users\dillu\Downloads\Blazor-Asessment-main\Blazor-Asessment-main\DillunHolmesBlazorServerApp\DillunHolmesBlazorServerApp\bin\Debug\net6.0\Microsoft.AspNetCore.Authorization.dll
+C:\Users\dillu\Downloads\Blazor-Asessment-main\Blazor-Asessment-main\DillunHolmesBlazorServerApp\DillunHolmesBlazorServerApp\bin\Debug\net6.0\Microsoft.AspNetCore.Components.dll
+C:\Users\dillu\Downloads\Blazor-Asessment-main\Blazor-Asessment-main\DillunHolmesBlazorServerApp\DillunHolmesBlazorServerApp\bin\Debug\net6.0\Microsoft.AspNetCore.Components.Forms.dll
+C:\Users\dillu\Downloads\Blazor-Asessment-main\Blazor-Asessment-main\DillunHolmesBlazorServerApp\DillunHolmesBlazorServerApp\bin\Debug\net6.0\Microsoft.AspNetCore.Components.Web.dll
+C:\Users\dillu\Downloads\Blazor-Asessment-main\Blazor-Asessment-main\DillunHolmesBlazorServerApp\DillunHolmesBlazorServerApp\bin\Debug\net6.0\Microsoft.AspNetCore.Metadata.dll
+C:\Users\dillu\Downloads\Blazor-Asessment-main\Blazor-Asessment-main\DillunHolmesBlazorServerApp\DillunHolmesBlazorServerApp\bin\Debug\net6.0\Microsoft.Data.SqlClient.dll
+C:\Users\dillu\Downloads\Blazor-Asessment-main\Blazor-Asessment-main\DillunHolmesBlazorServerApp\DillunHolmesBlazorServerApp\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.dll
+C:\Users\dillu\Downloads\Blazor-Asessment-main\Blazor-Asessment-main\DillunHolmesBlazorServerApp\DillunHolmesBlazorServerApp\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Users\dillu\Downloads\Blazor-Asessment-main\Blazor-Asessment-main\DillunHolmesBlazorServerApp\DillunHolmesBlazorServerApp\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Design.dll
+C:\Users\dillu\Downloads\Blazor-Asessment-main\Blazor-Asessment-main\DillunHolmesBlazorServerApp\DillunHolmesBlazorServerApp\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Relational.dll
+C:\Users\dillu\Downloads\Blazor-Asessment-main\Blazor-Asessment-main\DillunHolmesBlazorServerApp\DillunHolmesBlazorServerApp\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.SqlServer.dll
+C:\Users\dillu\Downloads\Blazor-Asessment-main\Blazor-Asessment-main\DillunHolmesBlazorServerApp\DillunHolmesBlazorServerApp\bin\Debug\net6.0\Microsoft.Extensions.DependencyInjection.dll
+C:\Users\dillu\Downloads\Blazor-Asessment-main\Blazor-Asessment-main\DillunHolmesBlazorServerApp\DillunHolmesBlazorServerApp\bin\Debug\net6.0\Microsoft.Extensions.Logging.Abstractions.dll
+C:\Users\dillu\Downloads\Blazor-Asessment-main\Blazor-Asessment-main\DillunHolmesBlazorServerApp\DillunHolmesBlazorServerApp\bin\Debug\net6.0\Microsoft.Identity.Client.dll
+C:\Users\dillu\Downloads\Blazor-Asessment-main\Blazor-Asessment-main\DillunHolmesBlazorServerApp\DillunHolmesBlazorServerApp\bin\Debug\net6.0\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Users\dillu\Downloads\Blazor-Asessment-main\Blazor-Asessment-main\DillunHolmesBlazorServerApp\DillunHolmesBlazorServerApp\bin\Debug\net6.0\Microsoft.IdentityModel.Logging.dll
+C:\Users\dillu\Downloads\Blazor-Asessment-main\Blazor-Asessment-main\DillunHolmesBlazorServerApp\DillunHolmesBlazorServerApp\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.dll
+C:\Users\dillu\Downloads\Blazor-Asessment-main\Blazor-Asessment-main\DillunHolmesBlazorServerApp\DillunHolmesBlazorServerApp\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\Users\dillu\Downloads\Blazor-Asessment-main\Blazor-Asessment-main\DillunHolmesBlazorServerApp\DillunHolmesBlazorServerApp\bin\Debug\net6.0\Microsoft.IdentityModel.Tokens.dll
+C:\Users\dillu\Downloads\Blazor-Asessment-main\Blazor-Asessment-main\DillunHolmesBlazorServerApp\DillunHolmesBlazorServerApp\bin\Debug\net6.0\Microsoft.JSInterop.dll
+C:\Users\dillu\Downloads\Blazor-Asessment-main\Blazor-Asessment-main\DillunHolmesBlazorServerApp\DillunHolmesBlazorServerApp\bin\Debug\net6.0\Microsoft.Win32.SystemEvents.dll
+C:\Users\dillu\Downloads\Blazor-Asessment-main\Blazor-Asessment-main\DillunHolmesBlazorServerApp\DillunHolmesBlazorServerApp\bin\Debug\net6.0\System.Configuration.ConfigurationManager.dll
+C:\Users\dillu\Downloads\Blazor-Asessment-main\Blazor-Asessment-main\DillunHolmesBlazorServerApp\DillunHolmesBlazorServerApp\bin\Debug\net6.0\System.Drawing.Common.dll
+C:\Users\dillu\Downloads\Blazor-Asessment-main\Blazor-Asessment-main\DillunHolmesBlazorServerApp\DillunHolmesBlazorServerApp\bin\Debug\net6.0\System.IdentityModel.Tokens.Jwt.dll
+C:\Users\dillu\Downloads\Blazor-Asessment-main\Blazor-Asessment-main\DillunHolmesBlazorServerApp\DillunHolmesBlazorServerApp\bin\Debug\net6.0\System.IO.Pipelines.dll
+C:\Users\dillu\Downloads\Blazor-Asessment-main\Blazor-Asessment-main\DillunHolmesBlazorServerApp\DillunHolmesBlazorServerApp\bin\Debug\net6.0\System.Runtime.Caching.dll
+C:\Users\dillu\Downloads\Blazor-Asessment-main\Blazor-Asessment-main\DillunHolmesBlazorServerApp\DillunHolmesBlazorServerApp\bin\Debug\net6.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\dillu\Downloads\Blazor-Asessment-main\Blazor-Asessment-main\DillunHolmesBlazorServerApp\DillunHolmesBlazorServerApp\bin\Debug\net6.0\System.Security.Permissions.dll
+C:\Users\dillu\Downloads\Blazor-Asessment-main\Blazor-Asessment-main\DillunHolmesBlazorServerApp\DillunHolmesBlazorServerApp\bin\Debug\net6.0\System.Windows.Extensions.dll
+C:\Users\dillu\Downloads\Blazor-Asessment-main\Blazor-Asessment-main\DillunHolmesBlazorServerApp\DillunHolmesBlazorServerApp\bin\Debug\net6.0\runtimes\unix\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+C:\Users\dillu\Downloads\Blazor-Asessment-main\Blazor-Asessment-main\DillunHolmesBlazorServerApp\DillunHolmesBlazorServerApp\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+C:\Users\dillu\Downloads\Blazor-Asessment-main\Blazor-Asessment-main\DillunHolmesBlazorServerApp\DillunHolmesBlazorServerApp\bin\Debug\net6.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\dillu\Downloads\Blazor-Asessment-main\Blazor-Asessment-main\DillunHolmesBlazorServerApp\DillunHolmesBlazorServerApp\bin\Debug\net6.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\dillu\Downloads\Blazor-Asessment-main\Blazor-Asessment-main\DillunHolmesBlazorServerApp\DillunHolmesBlazorServerApp\bin\Debug\net6.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\dillu\Downloads\Blazor-Asessment-main\Blazor-Asessment-main\DillunHolmesBlazorServerApp\DillunHolmesBlazorServerApp\bin\Debug\net6.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\dillu\Downloads\Blazor-Asessment-main\Blazor-Asessment-main\DillunHolmesBlazorServerApp\DillunHolmesBlazorServerApp\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\Microsoft.Win32.SystemEvents.dll
+C:\Users\dillu\Downloads\Blazor-Asessment-main\Blazor-Asessment-main\DillunHolmesBlazorServerApp\DillunHolmesBlazorServerApp\bin\Debug\net6.0\runtimes\unix\lib\netcoreapp3.0\System.Drawing.Common.dll
+C:\Users\dillu\Downloads\Blazor-Asessment-main\Blazor-Asessment-main\DillunHolmesBlazorServerApp\DillunHolmesBlazorServerApp\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\System.Drawing.Common.dll
+C:\Users\dillu\Downloads\Blazor-Asessment-main\Blazor-Asessment-main\DillunHolmesBlazorServerApp\DillunHolmesBlazorServerApp\bin\Debug\net6.0\runtimes\win\lib\netstandard2.0\System.Runtime.Caching.dll
+C:\Users\dillu\Downloads\Blazor-Asessment-main\Blazor-Asessment-main\DillunHolmesBlazorServerApp\DillunHolmesBlazorServerApp\bin\Debug\net6.0\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\dillu\Downloads\Blazor-Asessment-main\Blazor-Asessment-main\DillunHolmesBlazorServerApp\DillunHolmesBlazorServerApp\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\System.Windows.Extensions.dll
+C:\Users\dillu\Downloads\Blazor-Asessment-main\Blazor-Asessment-main\DillunHolmesBlazorServerApp\DillunHolmesBlazorServerApp\obj\Debug\net6.0\DillunHolmesBlazorServerApp.csproj.AssemblyReference.cache
+C:\Users\dillu\Downloads\Blazor-Asessment-main\Blazor-Asessment-main\DillunHolmesBlazorServerApp\DillunHolmesBlazorServerApp\obj\Debug\net6.0\DillunHolmesBlazorServerApp.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\dillu\Downloads\Blazor-Asessment-main\Blazor-Asessment-main\DillunHolmesBlazorServerApp\DillunHolmesBlazorServerApp\obj\Debug\net6.0\DillunHolmesBlazorServerApp.AssemblyInfoInputs.cache
+C:\Users\dillu\Downloads\Blazor-Asessment-main\Blazor-Asessment-main\DillunHolmesBlazorServerApp\DillunHolmesBlazorServerApp\obj\Debug\net6.0\DillunHolmesBlazorServerApp.AssemblyInfo.cs
+C:\Users\dillu\Downloads\Blazor-Asessment-main\Blazor-Asessment-main\DillunHolmesBlazorServerApp\DillunHolmesBlazorServerApp\obj\Debug\net6.0\DillunHolmesBlazorServerApp.csproj.CoreCompileInputs.cache
+C:\Users\dillu\Downloads\Blazor-Asessment-main\Blazor-Asessment-main\DillunHolmesBlazorServerApp\DillunHolmesBlazorServerApp\obj\Debug\net6.0\DillunHolmesBlazorServerApp.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\dillu\Downloads\Blazor-Asessment-main\Blazor-Asessment-main\DillunHolmesBlazorServerApp\DillunHolmesBlazorServerApp\obj\Debug\net6.0\DillunHolmesBlazorServerApp.RazorAssemblyInfo.cache
+C:\Users\dillu\Downloads\Blazor-Asessment-main\Blazor-Asessment-main\DillunHolmesBlazorServerApp\DillunHolmesBlazorServerApp\obj\Debug\net6.0\DillunHolmesBlazorServerApp.RazorAssemblyInfo.cs
+C:\Users\dillu\Downloads\Blazor-Asessment-main\Blazor-Asessment-main\DillunHolmesBlazorServerApp\DillunHolmesBlazorServerApp\obj\Debug\net6.0\staticwebassets.build.json
+C:\Users\dillu\Downloads\Blazor-Asessment-main\Blazor-Asessment-main\DillunHolmesBlazorServerApp\DillunHolmesBlazorServerApp\obj\Debug\net6.0\staticwebassets.development.json
+C:\Users\dillu\Downloads\Blazor-Asessment-main\Blazor-Asessment-main\DillunHolmesBlazorServerApp\DillunHolmesBlazorServerApp\obj\Debug\net6.0\staticwebassets\msbuild.DillunHolmesBlazorServerApp.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Users\dillu\Downloads\Blazor-Asessment-main\Blazor-Asessment-main\DillunHolmesBlazorServerApp\DillunHolmesBlazorServerApp\obj\Debug\net6.0\staticwebassets\msbuild.build.DillunHolmesBlazorServerApp.props
+C:\Users\dillu\Downloads\Blazor-Asessment-main\Blazor-Asessment-main\DillunHolmesBlazorServerApp\DillunHolmesBlazorServerApp\obj\Debug\net6.0\staticwebassets\msbuild.buildMultiTargeting.DillunHolmesBlazorServerApp.props
+C:\Users\dillu\Downloads\Blazor-Asessment-main\Blazor-Asessment-main\DillunHolmesBlazorServerApp\DillunHolmesBlazorServerApp\obj\Debug\net6.0\staticwebassets\msbuild.buildTransitive.DillunHolmesBlazorServerApp.props
+C:\Users\dillu\Downloads\Blazor-Asessment-main\Blazor-Asessment-main\DillunHolmesBlazorServerApp\DillunHolmesBlazorServerApp\obj\Debug\net6.0\staticwebassets.pack.json
+C:\Users\dillu\Downloads\Blazor-Asessment-main\Blazor-Asessment-main\DillunHolmesBlazorServerApp\DillunHolmesBlazorServerApp\obj\Debug\net6.0\scopedcss\Shared\MainLayout.razor.rz.scp.css
+C:\Users\dillu\Downloads\Blazor-Asessment-main\Blazor-Asessment-main\DillunHolmesBlazorServerApp\DillunHolmesBlazorServerApp\obj\Debug\net6.0\scopedcss\Shared\NavMenu.razor.rz.scp.css
+C:\Users\dillu\Downloads\Blazor-Asessment-main\Blazor-Asessment-main\DillunHolmesBlazorServerApp\DillunHolmesBlazorServerApp\obj\Debug\net6.0\scopedcss\bundle\DillunHolmesBlazorServerApp.styles.css
+C:\Users\dillu\Downloads\Blazor-Asessment-main\Blazor-Asessment-main\DillunHolmesBlazorServerApp\DillunHolmesBlazorServerApp\obj\Debug\net6.0\scopedcss\projectbundle\DillunHolmesBlazorServerApp.bundle.scp.css
+C:\Users\dillu\Downloads\Blazor-Asessment-main\Blazor-Asessment-main\DillunHolmesBlazorServerApp\DillunHolmesBlazorServerApp\obj\Debug\net6.0\DillunHo.AF612C28.Up2Date
+C:\Users\dillu\Downloads\Blazor-Asessment-main\Blazor-Asessment-main\DillunHolmesBlazorServerApp\DillunHolmesBlazorServerApp\obj\Debug\net6.0\DillunHolmesBlazorServerApp.dll
+C:\Users\dillu\Downloads\Blazor-Asessment-main\Blazor-Asessment-main\DillunHolmesBlazorServerApp\DillunHolmesBlazorServerApp\obj\Debug\net6.0\refint\DillunHolmesBlazorServerApp.dll
+C:\Users\dillu\Downloads\Blazor-Asessment-main\Blazor-Asessment-main\DillunHolmesBlazorServerApp\DillunHolmesBlazorServerApp\obj\Debug\net6.0\DillunHolmesBlazorServerApp.pdb
+C:\Users\dillu\Downloads\Blazor-Asessment-main\Blazor-Asessment-main\DillunHolmesBlazorServerApp\DillunHolmesBlazorServerApp\obj\Debug\net6.0\DillunHolmesBlazorServerApp.genruntimeconfig.cache
+C:\Users\dillu\Downloads\Blazor-Asessment-main\Blazor-Asessment-main\DillunHolmesBlazorServerApp\DillunHolmesBlazorServerApp\obj\Debug\net6.0\ref\DillunHolmesBlazorServerApp.dll

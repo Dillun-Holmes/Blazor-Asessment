@@ -1,0 +1,97 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Users\\dillu\\Downloads\\Blazor-Asessment-main\\Blazor-Asessment-main\\DillunHolmesBlazorServerApp\\DillunHolmesBlazorServerApp\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\DillunHolmesBlazorServerApp.bundle.scp.css",
+      "PackagePath": "staticwebassets\\DillunHolmesBlazorServerApp.bundle.scp.css"
+    },
+    {
+      "Id": "C:\\Users\\dillu\\Downloads\\Blazor-Asessment-main\\Blazor-Asessment-main\\DillunHolmesBlazorServerApp\\DillunHolmesBlazorServerApp\\wwwroot\\css\\bootstrap\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\css\\bootstrap\\bootstrap.min.css"
+    },
+    {
+      "Id": "C:\\Users\\dillu\\Downloads\\Blazor-Asessment-main\\Blazor-Asessment-main\\DillunHolmesBlazorServerApp\\DillunHolmesBlazorServerApp\\wwwroot\\css\\bootstrap\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\css\\bootstrap\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\dillu\\Downloads\\Blazor-Asessment-main\\Blazor-Asessment-main\\DillunHolmesBlazorServerApp\\DillunHolmesBlazorServerApp\\wwwroot\\css\\open-iconic\\FONT-LICENSE",
+      "PackagePath": "staticwebassets\\css\\open-iconic"
+    },
+    {
+      "Id": "C:\\Users\\dillu\\Downloads\\Blazor-Asessment-main\\Blazor-Asessment-main\\DillunHolmesBlazorServerApp\\DillunHolmesBlazorServerApp\\wwwroot\\css\\open-iconic\\ICON-LICENSE",
+      "PackagePath": "staticwebassets\\css\\open-iconic"
+    },
+    {
+      "Id": "C:\\Users\\dillu\\Downloads\\Blazor-Asessment-main\\Blazor-Asessment-main\\DillunHolmesBlazorServerApp\\DillunHolmesBlazorServerApp\\wwwroot\\css\\open-iconic\\README.md",
+      "PackagePath": "staticwebassets\\css\\open-iconic\\README.md"
+    },
+    {
+      "Id": "C:\\Users\\dillu\\Downloads\\Blazor-Asessment-main\\Blazor-Asessment-main\\DillunHolmesBlazorServerApp\\DillunHolmesBlazorServerApp\\wwwroot\\css\\open-iconic\\font\\css\\open-iconic-bootstrap.min.css",
+      "PackagePath": "staticwebassets\\css\\open-iconic\\font\\css\\open-iconic-bootstrap.min.css"
+    },
+    {
+      "Id": "C:\\Users\\dillu\\Downloads\\Blazor-Asessment-main\\Blazor-Asessment-main\\DillunHolmesBlazorServerApp\\DillunHolmesBlazorServerApp\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.eot",
+      "PackagePath": "staticwebassets\\css\\open-iconic\\font\\fonts\\open-iconic.eot"
+    },
+    {
+      "Id": "C:\\Users\\dillu\\Downloads\\Blazor-Asessment-main\\Blazor-Asessment-main\\DillunHolmesBlazorServerApp\\DillunHolmesBlazorServerApp\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.otf",
+      "PackagePath": "staticwebassets\\css\\open-iconic\\font\\fonts\\open-iconic.otf"
+    },
+    {
+      "Id": "C:\\Users\\dillu\\Downloads\\Blazor-Asessment-main\\Blazor-Asessment-main\\DillunHolmesBlazorServerApp\\DillunHolmesBlazorServerApp\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.svg",
+      "PackagePath": "staticwebassets\\css\\open-iconic\\font\\fonts\\open-iconic.svg"
+    },
+    {
+      "Id": "C:\\Users\\dillu\\Downloads\\Blazor-Asessment-main\\Blazor-Asessment-main\\DillunHolmesBlazorServerApp\\DillunHolmesBlazorServerApp\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.ttf",
+      "PackagePath": "staticwebassets\\css\\open-iconic\\font\\fonts\\open-iconic.ttf"
+    },
+    {
+      "Id": "C:\\Users\\dillu\\Downloads\\Blazor-Asessment-main\\Blazor-Asessment-main\\DillunHolmesBlazorServerApp\\DillunHolmesBlazorServerApp\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.woff",
+      "PackagePath": "staticwebassets\\css\\open-iconic\\font\\fonts\\open-iconic.woff"
+    },
+    {
+      "Id": "C:\\Users\\dillu\\Downloads\\Blazor-Asessment-main\\Blazor-Asessment-main\\DillunHolmesBlazorServerApp\\DillunHolmesBlazorServerApp\\wwwroot\\css\\site.css",
+      "PackagePath": "staticwebassets\\css\\site.css"
+    },
+    {
+      "Id": "C:\\Users\\dillu\\Downloads\\Blazor-Asessment-main\\Blazor-Asessment-main\\DillunHolmesBlazorServerApp\\DillunHolmesBlazorServerApp\\wwwroot\\favicon.ico",
+      "PackagePath": "staticwebassets\\favicon.ico"
+    },
+    {
+      "Id": "C:\\Users\\dillu\\Downloads\\Blazor-Asessment-main\\Blazor-Asessment-main\\DillunHolmesBlazorServerApp\\DillunHolmesBlazorServerApp\\wwwroot\\img\\1_Dillun Test_2.png",
+      "PackagePath": "staticwebassets\\img\\1_Dillun Test_2.png"
+    },
+    {
+      "Id": "C:\\Users\\dillu\\Downloads\\Blazor-Asessment-main\\Blazor-Asessment-main\\DillunHolmesBlazorServerApp\\DillunHolmesBlazorServerApp\\wwwroot\\img\\1_Dillun_1.png",
+      "PackagePath": "staticwebassets\\img\\1_Dillun_1.png"
+    },
+    {
+      "Id": "C:\\Users\\dillu\\Downloads\\Blazor-Asessment-main\\Blazor-Asessment-main\\DillunHolmesBlazorServerApp\\DillunHolmesBlazorServerApp\\wwwroot\\img\\1_Dillun_2.png",
+      "PackagePath": "staticwebassets\\img\\1_Dillun_2.png"
+    },
+    {
+      "Id": "C:\\Users\\dillu\\Downloads\\Blazor-Asessment-main\\Blazor-Asessment-main\\DillunHolmesBlazorServerApp\\DillunHolmesBlazorServerApp\\wwwroot\\img\\3312133a-9ffd-4935-aa72-525f47ae7598.jpg",
+      "PackagePath": "staticwebassets\\img\\3312133a-9ffd-4935-aa72-525f47ae7598.jpg"
+    },
+    {
+      "Id": "C:\\Users\\dillu\\Downloads\\Blazor-Asessment-main\\Blazor-Asessment-main\\DillunHolmesBlazorServerApp\\DillunHolmesBlazorServerApp\\wwwroot\\img\\ed55f3bb-425e-4f86-b7a4-36bb291f8bb5.jpg",
+      "PackagePath": "staticwebassets\\img\\ed55f3bb-425e-4f86-b7a4-36bb291f8bb5.jpg"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.DillunHolmesBlazorServerApp.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.build.DillunHolmesBlazorServerApp.props",
+      "PackagePath": "build\\DillunHolmesBlazorServerApp.props"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.buildMultiTargeting.DillunHolmesBlazorServerApp.props",
+      "PackagePath": "buildMultiTargeting\\DillunHolmesBlazorServerApp.props"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.buildTransitive.DillunHolmesBlazorServerApp.props",
+      "PackagePath": "buildTransitive\\DillunHolmesBlazorServerApp.props"
+    }
+  ],
+  "ElementsToRemove": []
+}
