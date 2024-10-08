@@ -1,0 +1,4 @@
+1,BarcodeScanner,ScannerType
+2,Printer,InkjetPrinter
+3,Camera,DigitalCamera
+4,SocketTray,TrayType
